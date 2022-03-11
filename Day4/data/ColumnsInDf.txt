@@ -1,0 +1,29 @@
+Id	Ortholog family id
+HS_gene_id	Human gene id
+Gene	Gene name
+Description	Human gene description
+HS	Human transcript id / Ortholog family id
+GG	Gorilla transcript id
+NL	Gibbon transcript id
+PT	Chimpanzee transcript id
+HS_aa	Length of Human protein
+PT_aa	Length of Chimpanzee protein
+GG_aa	Length of Gorilla protein
+NL_aa	Length of Gibbon protein
+overlap	Length of final alignment
+AbsId	Identical sites within the alignment
+Subs	Total substituted sites within the alignment
+HS_Subs	Sites substituted only in the human protein
+PT_Subs	Sites substituted only in the chimpanzee protein
+GG_Subs	Sites substituted only in the gorilla protein
+NL_Subs	Sites substituted only in the gibbon protein
+#1#_Subs	Sites substituted only at the #1# branch
+NoId	Sites without any identity
+%AbsId	(AbsId/overlap)*100
+%Subs	(Subs/overlap)*100
+%HS_Subs	(HS_Subs/overlap)*100
+%PT_Subs	(PT_Subs/overlap)*100
+%GG_Subs	(GG_Subs/overlap)*100
+%NL_Subs	(NL_Subs/overlap)*100
+%#1#_Subs	(Subs/overlap)*100
+%NoId	(NoId/overlap)*100
